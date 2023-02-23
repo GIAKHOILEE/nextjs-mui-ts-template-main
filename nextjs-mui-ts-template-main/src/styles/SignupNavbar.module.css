@@ -1,0 +1,29 @@
+@import 'signupstep1.module.css';
+@import 'signupstep2.module.css';
+@import 'signupstep3.module.css';
+@import 'signupstep4.module.css';
+
+.navbar{
+    height: 100%;
+    width: 240px;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .navbar__content .step{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.navbar__content .step .step__cicle{
+    background: var(--background-gray);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

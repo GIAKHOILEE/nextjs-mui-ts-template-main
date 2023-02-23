@@ -1,0 +1,70 @@
+/* form Input */
+.login__form {
+  width: 400px;
+  font-size: 1.3rem;
+}
+.login__form .form__input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login__form .form__input .input {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--main-color);
+}
+.login__form .form__input span {
+  font-weight: 700;
+}
+
+.form__input .form-input__icon {
+  background: var(--main-color);
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  border-radius: 5px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form__input .form-input__icon .icon {
+  color: var(--white-color);
+  font-size: 30px;
+}
+
+/* remenber/forgot pw */
+.form__pwinter {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form__pwinter .pwinter__rememberpw {
+  display: flex;
+  align-items: center;
+}
+.form__pwinter a {
+  color: var(--main-color);
+  text-decoration: underline var(--main-color);
+}
+
+/* btn login */
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1.4rem;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  margin-bottom: 30px;
+}
+
+.form__btnsingup {
+  width: 100%;
+  height: 50px;
+  font-size: 1.4rem;
+  background-color: var(--white-color);
+  color: var(--main-color);
+}

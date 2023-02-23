@@ -1,0 +1,26 @@
+.head{
+    position: initial;
+    z-index: 3;
+}
+.logo {
+  height: 52px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.language {
+  position: absolute;
+  top: 45px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+}
+.language .language__icon {
+  font-size: 1.9rem;
+}
+.language span {
+  font-size: 1.6rem;
+  margin-left: 5px;
+  text-decoration: underline var(--main-color);
+}

@@ -1,0 +1,105 @@
+.page-findPw {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+.page__container-findPw {
+  width: 1000px;
+  height: 620px;
+  background: var(--background-gray);
+  box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+  border-radius: 7px;
+  margin: auto;
+  padding-top: 105px;
+}
+.logo img {
+  display: block;
+  height: 52px;
+  margin: 0 auto;
+}
+
+.findPw__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  justify-content: space-around;
+}
+.content__title p {
+  text-align: center;
+  line-height: 1.5;
+  color: var(--gray-color);
+}
+.findPw__layout {
+  width: 300px;
+  margin: auto;
+}
+.layout__form {
+  padding-bottom: 24px;
+  text-align: center;
+}
+.form__inputBar input {
+  width: 100%;
+  position: relative;
+  background-color: var(--white-color);
+  border: 1px solid var(--gray-color);
+  padding-left: 64px;
+  height: 42px;
+  border-radius: 7px;
+}
+.form__inputBar {
+  margin-bottom: 15px;
+  position: relative;
+}
+.form__inputBar input:hover {
+  border-color: var(--border-color);
+}
+.inputBar__icon {
+  height: 22px;
+  padding: 0px 16px;
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  border-right: 1px solid var(--gray-color);
+}
+
+.form__inputBar a {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  text-decoration: none;
+  color: var(--border-color);
+}
+.form__inputBar a:hover{
+  text-decoration: underline var(--border-color);
+}
+.form__inputBar span {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  color: var(--gray-color);
+}
+
+.layout__form button {
+  width: 100%;
+  height: 42px;
+  color: var(--white-color);
+  background-color: var(--gray-pale);
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.findPw__foot{
+  width: 180px;
+  margin: auto;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  color:  var(--gray-color);
+}
+/* .findPw__foot:hover{
+
+} */

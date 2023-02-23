@@ -1,0 +1,23 @@
+.login__wrapper {
+  min-width: 1000px;
+  height: 100vh;
+  background-image: url("../../public/imgs/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-wrapper__container {
+  width: 1000px;
+  height: 620px;
+  background: var(--background-gray);
+  box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+  border-radius: 7px;
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
